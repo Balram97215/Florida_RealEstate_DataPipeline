@@ -14,6 +14,12 @@ pipeline.log
 # Secrets
 superset/.env
 
+# Local-only files (not synced with remote)
+Ed/
+superset/email_to_joy.md
+superset/DASHBOARD_BUILD_GUIDE.md
+superset/project_report.md
+
 # Python
 __pycache__/
 *.py[cod]
