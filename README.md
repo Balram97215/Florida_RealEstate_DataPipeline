@@ -1,6 +1,6 @@
 # Florida Real Estate Data Pipeline
 
-A production-grade ELT (Extract → Load → Transform → Validate) pipeline and analytics platform built for **Community Dreams Foundation**, a nonprofit focused on fair housing policy and corporate real estate accountability.
+A production-grade ELT (Extract → Load → Transform → Validate) pipeline and analytics platform.
 
 The platform processes **10.8 million Florida property parcel records** across all 68 counties, transforming raw geospatial data into a fully validated analytical warehouse with interactive Superset dashboards.
 
@@ -375,9 +375,3 @@ python tests/smoke_test.py
 ```
 
 The smoke test extracts 100 records from the GDB, loads them into an in-memory DuckDB instance, and verifies that all pipeline phases complete without error.
-
----
-
-## License
-
-This project was built pro bono for [Community Dreams Foundation](https://communitydreamsfoundation.org). Data sourced from the Florida Department of Revenue is in the public domain.
